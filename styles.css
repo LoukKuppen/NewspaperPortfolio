@@ -18,14 +18,29 @@
     margin-top: -120px;
 }
 
-.Profiel {
-    display: flex;
-    justify-content: center;
+.ProfielContainer {
+    position: relative;
+    margin-top: 0px;
 }
 
 .ProfielAfbeelding {
-    position: relative;
+    display: block;
+    margin: 0 auto;
     max-width: 1000px;
-
+    height: auto;
 }
 
+.ProfielTekst {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    transform: translateY(-50%);
+    max-width: 380px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 70px;
+    margin-bottom: 0%;
+}
