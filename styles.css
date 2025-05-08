@@ -65,7 +65,7 @@ h3 {
 .ProjectContainer {
     display: flex; 
     justify-content: center; 
-    gap: 200px; 
+    gap: 180px; 
     margin-top: 20px;
     text-align: center;
 }
@@ -75,7 +75,7 @@ h3 {
     margin: 0;
     line-height: 1.2; /* Zorg voor een consistente regelhoogte */
     height: 40px; /* Stel een vaste hoogte in die past bij de grootste font */
-
+    
 }
 
 body {
@@ -111,4 +111,20 @@ body {
   .ProjectItem h3 {
     font-family: 'Habibi', serif;
     width: 300px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ProjectItem {
+    display: block; /* Zorg ervoor dat de <a> zich gedraagt als een blok */
+    text-decoration: none; /* Verwijder de standaard onderstreping van links */
+    color: inherit; /* Zorg ervoor dat de tekstkleur hetzelfde blijft */
+    cursor: pointer; /* Verander de cursor naar een klikbare hand */
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ProjectItem:hover {
+    transform: scale(1.05);
+
 }
