@@ -20,27 +20,87 @@
 
 .ProfielContainer {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0px;
 }
 
 .ProfielAfbeelding {
     display: block;
-    margin: 0 auto;
     max-width: 1000px;
     height: auto;
+    margin: 0 20px;
+    position: relative;
 }
 
-.ProfielTekst {
-    position: absolute;
-    top: 250px;
-    left: 20px;
-    transform: translateY(-50%);
+.ProfielAfbeelding::after {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.ProfielTekst, .ProfielTekstRight {
     max-width: 380px;
     font-size: 18px;
     line-height: 1.2;
+    position: relative;
+    text-align: left;
+    top: -200px;
+}
+
+.ProfielTekst {
+    position: relative;
+    text-align: left;
+}
+
+.ProfielTekstRight {
+    position: relative;
+    text-align: left;
 }
 
 h3 {
     font-size: 70px;
     margin-bottom: 0%;
 }
+
+.ProjectContainer {
+    display: flex; 
+    justify-content: center; 
+    gap: 300px; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ProjectContainer h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Habibi', serif; /* Standaard font voor de meeste tekst */
+    background-color: #fdf5e6; /* Lichtgele kleur voor een oud-krant effect */
+    background-image: url('PaperTexture.jpg'); /* Textuurafbeelding */
+    background-size: cover; /* Zorgt ervoor dat de textuur de hele pagina bedekt */
+    background-repeat: no-repeat; /* Voorkomt herhaling van de textuur */
+    background-position: center ; /* Startpositie van de achtergrond */
+    color: #333; /* Donkergrijze tekstkleur voor contrast */
+}
+
+
+.ProfielTekst, .ProfielTekstRight, .ProjectContainer h3, .ProjectContainer p {
+    font-family: 'Habibi', serif;
+}
+
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-image: url('PaperTexture.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transform: translateY(0);
+    will-change: transform;
+  }
