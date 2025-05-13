@@ -177,3 +177,25 @@ body {
     margin-top: 200px;
 }
 
+
+
+.Leeruitkomsten {
+    display: flex;
+    flex-direction: column;
+}
+
+.Leeruitkomsten h5 {
+margin: 10px 0;
+}
+
+.LO {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+}
+
+.LO:hover {
+transform: scale(1.05);
+
+}
