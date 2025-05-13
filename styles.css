@@ -18,6 +18,18 @@
     margin-top: -120px;
 }
 
+.Branding {
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.info {
+    position: relative;
+    font-size: 20px;
+    margin-top: -120px;
+}
+
 .ProfielContainer {
     position: relative;
     display: flex;
@@ -127,4 +139,37 @@ body {
 .ProjectItem:hover {
     transform: scale(1.05);
 
+}
+
+
+.ProjectenText {
+    font-size: 24px;
+    margin-top: 200px;
+    text-align: start;
+    margin-right: 200px;
+
+}
+
+.ProjectenTextBranding {
+    font-size: 24px;
+    max-width: 500px;
+    margin-left: 20px;
+
+}
+
+.TextAndImageContainer {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+.TextContent {
+    flex: 1; 
+}
+
+.BorisSchmidtLogo {
+    max-width: 1000px;
+    height: auto; 
+    margin-left: 200px;
+    margin-top: 200px;
 }
