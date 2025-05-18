@@ -199,3 +199,76 @@ margin: 10px 0;
 transform: scale(1.05);
 
 }
+
+.LeeruitkomstTitel {
+    font-size: 80px;
+    text-align: start;
+    margin-right: 200px;
+}
+
+.OpmaakLeeruitkomsten {
+display: flex;
+flex-direction: column;
+gap: 100px;
+}
+
+.AnimationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px; /* ruimte boven de animatie */
+}
+
+.AnimationContainer img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+#animatedImage.dynamic-hover {
+    transition: transform 0.2s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+#animatedImage.dynamic-hover:hover {
+    transform: scale(1.08);
+}
+
+.icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#animatedImage {
+    z-index: 2;
+    position: relative;
+}
+
+.side-icon {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(40px) scale(0.8);
+    transition: 
+        transform 0.5s cubic-bezier(.25,.8,.25,1),
+        opacity 0.5s cubic-bezier(.25,.8,.25,1);
+    z-index: 1;
+    pointer-events: auto;
+}
+
+/* Zet de iconen altijd verder uit elkaar */
+#icon1 { left: -500px; }
+#icon2 { left: -250px; }
+#icon3 { right: -250px; }
+#icon4 { right: -500px; }
+
+/* Toon de iconen met animatie omhoog */
+.icon-wrapper.show-icons .side-icon {
+    opacity: 1;
+    transform: translateY(-80px);
+    pointer-events: auto;
+}
