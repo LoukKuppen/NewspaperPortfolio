@@ -85,6 +85,14 @@ h3 {
     text-align: center;
 }
 
+.ProjectContainerOnderdelen {
+    display: flex; 
+    justify-content: center; 
+    gap: 100px; 
+    margin-top: 20px;
+    text-align: center;
+}
+
 .ProjectContainer h3 {
     font-size: 24px; /* Zorg ervoor dat de tekst consistent blijft */
     margin: 0;
@@ -170,11 +178,14 @@ body {
     flex: 1; 
 }
 
-.BorisSchmidtLogo {
-    max-width: 1000px;
+.BrandingContent {
+    display: flex;
+    flex-direction: column; /* Zet de richting op kolom, dus onder elkaar */
+    max-width: 700px;
     height: auto; 
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 270px;
+    margin-top: 70px;
+    gap: 50px;
 }
 
 
@@ -271,4 +282,38 @@ gap: 100px;
     opacity: 1;
     transform: translateY(-80px);
     pointer-events: auto;
+}
+
+.ProjectOnderdelen {
+    margin-left: 900px;
+}
+.ProjectItemGap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.PersonaBranding {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.branding-page .ProjectContainerOnderdelen,
+.branding-page .ProjectContainerOnderdelen .ProjectItem,
+.branding-page .ProjectContainerOnderdelen h3,
+.branding-page .ProjectContainerOnderdelen p {
+    font-size: 30px; 
+}
+
+.LogoBoris {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.StylescapeBranding {
+    max-width: 300px;
+}
+
+.BrandingBrandguide {
+    max-width: 300px;
 }
