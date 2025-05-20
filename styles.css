@@ -317,3 +317,11 @@ gap: 100px;
 .BrandingBrandguide {
     max-width: 300px;
 }
+
+.PersonaBrandingPage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 900px;
+}
