@@ -33,9 +33,9 @@ const iconWrapper = animatedImage.parentElement;
 
 function updateAnimationOnScroll() {
     const images = [
-        'paperball.png',
-        'paperball2.png',
-        'paperball3.png',
+        'paperBall.png',
+        'paperBall2.png',
+        'paperBall3.png',
         lastImage
     ];
     const scrollTop = window.scrollY;

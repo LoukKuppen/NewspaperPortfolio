@@ -325,3 +325,39 @@ gap: 100px;
     margin-top: 100px;
     max-width: 900px;
 }
+
+.LogoBrandingPage {
+    display: flex;                /* Zet de items naast elkaar */
+    justify-content: center;      /* Centreer de items horizontaal */
+    align-items: center;          /* Centreer de items verticaal (optioneel) */
+    gap: 30px;                    /* Ruimte tussen de items */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 700px;             /* Maak het geheel kleiner */
+}
+
+.LogoBrandingPage img, 
+.LogoBrandingPage .logo-item { 
+    max-width: 300px;
+    height: auto;
+}
+
+.tussen-tekst {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.LogoBrandingPageFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.LogoBrandingPageFlex img {
+    max-width: 900px;
+    height: auto;
+}
