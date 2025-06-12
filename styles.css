@@ -108,7 +108,7 @@ body {
     background-size: cover; /* Zorgt ervoor dat de textuur de hele pagina bedekt */
     background-repeat: no-repeat; /* Voorkomt herhaling van de textuur */
     background-position: center ; /* Startpositie van de achtergrond */
-    color: #333; /* Donkergrijze tekstkleur voor contrast */
+    color: #000000; /* Donkergrijze tekstkleur voor contrast */
 }
 
 
