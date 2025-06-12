@@ -298,6 +298,12 @@ gap: 100px;
     margin-left: 20px;
 }
 
+.cardanLogo {
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-top: 300px;
+}
+
 .branding-page .ProjectContainerOnderdelen,
 .branding-page .ProjectContainerOnderdelen .ProjectItem,
 .branding-page .ProjectContainerOnderdelen h3,
@@ -326,6 +332,19 @@ gap: 100px;
     max-width: 900px;
 }
 
+.UXpersona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;           /* Meer ruimte tussen de afbeeldingen */
+}
+.UXpersona img {
+    max-width: 950px;    /* Maak de afbeeldingen groter */
+    height: auto;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
 .LogoBrandingPage {
     display: flex;                /* Zet de items naast elkaar */
     justify-content: center;      /* Centreer de items horizontaal */
@@ -342,6 +361,8 @@ gap: 100px;
     max-width: 300px;
     height: auto;
 }
+
+
 
 .tussen-tekst {
     font-size: 24px;
