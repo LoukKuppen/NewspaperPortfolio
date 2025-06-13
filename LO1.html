@@ -15,29 +15,55 @@
     <div class="OpmaakLeeruitkomsten">
     <h1 class="title Branding LeeruitkomstTitel">Leeruitkomst 1: Interactive Media Products</h1>
     <h2 class="discription Branding info">
-      Hierin komt de uitleg van de aantoningen voor de leeruitkomst.
+      Om mijn eerste leerdoel aan te tonen heb ik verschillende dingen gedaan.
     </h2>
     </div>
 
   </header>
   
-<div class="ProjectenTextBranding">
-    <div class="TextAndImageContainer">
-        <div class="TextContent">
-            <h3>Leeruitkomst</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac fermentum mauris, sit amet eleifend velit. Suspendisse eget accumsan sem, vitae laoreet urna.            </p>
-            <h4>Zelfreflectie</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac fermentum mauris, sit amet eleifend velit. Suspendisse eget accumsan sem, vitae laoreet urna.
-            </p>
-        </div>
-        <img src="" alt="" class="" />
-    </div>
+<div class="ux-h4-row">
+  <div class="ux-h4-col">
+    <h4>Onderzoek gedaan</h4>
+    <p>Ik heb onderzoek gedaan naar mijn doelgroep en hier een analyse van gemaakt.
+Ik heb bij de opdracht “branding” een doelgroep onderzoek doormiddel van interviews. Hierdoor konden we goed kijken wat er belangrijk was in het project. Deze vragen en antwoorden zijn te vinden in de opdracht branding.
+</p>
+  </div>
+  <div class="ux-h4-col">
+    <h4>Relevante media en technologie</h4>
+    <p>Om te zorgen dat ik werk en onderzoek doe naar relevante media en technologie heb ik een doelgroep analyse gemaakt.
+Bij de opdracht UX heb ik een doelgroep analyse gemaakt en hierin heb ik ook gekeken naar de tools die relevant zijn en waar we dus gebruik van moeten maken. Ook heb ik hierbij persona’s gemaakt zodat we tijdens het project we allemaal nog steeds op 1 lijn blijven. 
+</p>
+  </div>
+  <div class="ux-h4-col">
+    <h4>Interactief prototype</h4>
+    <p>Bij de opdracht UX was het de bedoeling dat we een interactief prototype maakte zodat we die konden usertesten en daaruit een echt product kunnen maken. Ik heb dit prototype in Figma gemaakt en deze link hiernaartoe is dus ook te vinden in het UX project in dit document.</p>
+  </div>
+  <div class="ux-h4-col">
+    <h4>Usertesten</h4>
+    <p>Voor mijn portfolio en de development opdracht heb ik usertesten gedaan. Dit heb ik gedaan zodat ik niet per ongeluk de foute richting in ging werken. Ik heb deze usertesten allemaal bij de projecten staan waar ze bij horen.</p>
+  </div>
 </div>
 
+<div class="ux-links-row">
+  <a class="ux-link" href="https://voorbeeld1.nl" target="_blank">Onderzoek</a>
+  <a class="ux-link" href="https://voorbeeld2.nl" target="_blank">Relevante media en technologie</a>
+  <a class="ux-link" href="https://voorbeeld3.nl" target="_blank">Interactief prototype</a>
+  <div class="ux-link-dropdown">
+    <a class="ux-link" href="#" id="dropdownToggle">Usertesten</a>
+    <div class="ux-dropdown-content" id="dropdownContent">
+      <a class="ux-link" href="https://keuze1.nl" target="_blank">Portfolio Usertest</a>
+      <a class="ux-link" href="https://keuze2.nl" target="_blank">Development Usertest</a>
+    </div>
+  </div>
+</div>
 
   <!-- Parallax script onderaan -->
   <script src="script.js"></script>
+  <script>
+document.getElementById('dropdownToggle').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('.ux-link-dropdown').classList.toggle('open');
+});
+</script>
 </body>
 </html>

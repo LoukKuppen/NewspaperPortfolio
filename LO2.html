@@ -13,32 +13,39 @@
 
   <header>
     <div class="OpmaakLeeruitkomsten">
-    <h1 class="title Branding LeeruitkomstTitel">Leeruitkomst 2: Development and Version control</h1>
-    <h2 class="discription Branding info">
-      Hierin komt de uitleg van de aantoningen voor de leeruitkomst.
-    </h2>
+      <h1 class="title Branding LeeruitkomstTitel">Leeruitkomst 2: Development</h1>
+      <h2 class="discription Branding info">
+        Om mijn eerste leerdoel aan te tonen heb ik verschillende dingen gedaan.
+      </h2>
     </div>
-
   </header>
   
-<div class="ProjectenTextBranding">
-    <div class="TextAndImageContainer">
-        <div class="TextContent">
-            <h3>Leeruitkomst</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac fermentum mauris, sit amet eleifend velit. Suspendisse eget accumsan sem, vitae laoreet urna.            </p>
-            <h4>Zelfreflectie</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac fermentum mauris, sit amet eleifend velit. Suspendisse eget accumsan sem, vitae laoreet urna.
-            </p>
-        </div>
-        <img src="" alt="" class="" />
+  <div class="ux-h4-row">
+    <div class="ux-h4-col">
+      <h4>Codeertalen</h4>
+      <p>Ik heb me bij de opdracht “development" en bij mijn portfolio hiermee bezig gehouden. Deze zijn uiteraard te vinden bij de opdrachten. Ik heb me uitgedaagd om dingen te leren waar ik bang voor was om ze aan te gaan zodat ik hier later veel profijt van heb. Ik heb me tot nu toe verdiept in HTML, CSS en in Javascript. 
+      </p>
     </div>
-</div>
+    <div class="ux-h4-col">
+      <h4>Versiebeheer</h4>
+      <p>Ik heb voor mijn portfolio en de development opdracht Git gebruikt. Ik heb de links hiernaartoe ook bij de projecten staan. Git was ook nieuw territorium voor mij dus ik ben blij dat ik de uitdaging aan ben gegaan. Ik laat nu ook mijn codes zien via Git en niet via een screenshot. Ik zie wel nog verbeterpuntjes en dat is bijvoorbeeld de mappen structuur in Git. Ik houd nu in ieder geval mijn versies bij.
+      </p>
+    </div>
+  </div>
 
-
+  <div class="ux-links-row">
+    <a class="ux-link" href="https://voorbeeld1.nl" target="_blank">Codeertalen</a>
+    <a class="ux-link" href="https://voorbeeld2.nl" target="_blank">Versiebeheer</a>
+    
+  </div>
 
   <!-- Parallax script onderaan -->
   <script src="script.js"></script>
+  <script>
+    document.getElementById('dropdownToggle').addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector('.ux-link-dropdown').classList.toggle('open');
+    });
+  </script>
 </body>
 </html>

@@ -82,3 +82,4 @@ animatedImage.addEventListener('click', function() {
     if (!animatedImage.classList.contains('dynamic-hover')) return;
     iconWrapper.classList.toggle('show-icons');
 });
+

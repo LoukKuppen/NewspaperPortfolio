@@ -147,6 +147,13 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.ProjectItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .ProjectItem:hover {
     transform: scale(1.05);
 
@@ -381,4 +388,64 @@ gap: 100px;
 .LogoBrandingPageFlex img {
     max-width: 900px;
     height: auto;
+}
+
+.ux-h4-row {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  margin: 40px 0;
+}
+.ux-h4-col {
+  flex: 1 1 0;
+  max-width: 250px;
+  text-align: center;
+}
+.ux-h4-col h4 {
+  margin-bottom: 12px;
+  font-size: 1.15rem;
+}
+.ux-h4-col p {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.ux-links-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 16px;
+}
+
+.ux-link {
+  font-size: 1.35rem;
+  font-family: inherit;
+  color: #222;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ux-link:hover {
+  transform: scale(1.08);
+}
+
+.ux-link-dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ux-dropdown-content {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.ux-link-dropdown.open .ux-dropdown-content {
+  display: flex;
 }
