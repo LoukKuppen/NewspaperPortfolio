@@ -416,6 +416,12 @@ gap: 100px;
   max-width: 250px;
   text-align: center;
 }
+.ux-h4-col2 {
+  flex: 1 1 0;
+  max-width: 450px;
+  text-align: center;
+}
+
 .ux-h4-col h4 {
   margin-bottom: 12px;
   font-size: 1.15rem;
