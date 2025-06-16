@@ -27,4 +27,29 @@ projectTitles.forEach(title => {
     });
 });
 
+  // Stel het aantal afbeeldingen in
+  const totalBG = 18; // Pas dit aan naar het aantal BG-afbeeldingen dat je hebt
+  let currentBG = 1;
 
+  const bgImage = document.getElementById('bgImage');
+  const prevBtn = document.getElementById('prevBG');
+  const nextBtn = document.getElementById('nextBG');
+
+  function updateBG() {
+    bgImage.src = `Images/Brandguide/${currentBG}BG.png`;
+    bgImage.alt = `Brandguide ${currentBG}`;
+  }
+
+  prevBtn.addEventListener('click', function() {
+    if (currentBG > 1) {
+      currentBG--;
+      updateBG();
+    }
+  });
+
+  nextBtn.addEventListener('click', function() {
+    if (currentBG < totalBG) {
+      currentBG++;
+      updateBG();
+    }
+  });
