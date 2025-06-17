@@ -411,6 +411,14 @@ gap: 100px;
   justify-content: center;
   margin: 40px 0;
 }
+
+.ux-h4-row2 {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
 .ux-h4-col {
   flex: 1 1 0;
   max-width: 250px;
