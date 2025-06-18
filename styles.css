@@ -303,6 +303,8 @@ gap: 100px;
 .ProjectOnderdelen {
     margin-left: 900px;
 }
+
+
 .ProjectItemGap {
     display: flex;
     flex-direction: column;
@@ -358,10 +360,25 @@ gap: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;           /* Meer ruimte tussen de afbeeldingen */
+    gap: 60px;
 }
+
 .UXpersona img {
-    max-width: 950px;    /* Maak de afbeeldingen groter */
+    max-width: 950px;
+    height: auto;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.UXpersona2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.UXpersona2 img {
+    max-width: 2000px;
     height: auto;
     margin: 0;
     margin-bottom: 60px;
